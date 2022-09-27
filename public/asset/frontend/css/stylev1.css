@@ -1,0 +1,206 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+.bg-imageG{
+    background: url('../images/bgGray.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-imageB{
+    background: url('../images/bgBlue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo1{
+    width:400px;
+}
+.btn.shadow{
+    box-shadow: 0 10px 50px rgba(0,0,0,1)
+}
+.btn{
+    border-radius: 15px;
+}
+.btn-white{
+    background: #fff;
+    color: #000;
+    text-align: left;
+    font-size: 4rem;
+    padding:30px 50px;
+}
+.btn-white:hover{
+    background: #054da1;
+    color: #fff;
+}
+.btn-blue{
+    background: #054da1;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    padding:20px 50px;
+    width:40%;
+}
+.btn-blue:hover{
+    background: #003776;
+    color: #fff;
+}
+.text-blue{
+     color: #054da1;
+}
+.icon-btn{
+    background: #054da1;
+    border-radius: 100%;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    margin-right: 50px;
+    padding: 35px;
+}
+.icon-btn img{
+    width: 130px;
+    height: 130px;
+    filter: invert(87%) sepia(99%) saturate(2%) hue-rotate(184deg) brightness(109%) contrast(97%);
+}
+.icon-btn2{
+    background: #054da1;
+    border-radius: 100%;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    margin-right: 50px;
+    padding: 40px 50px;
+}
+.icon-btn2 img{
+    width: 110px;
+    height: 110px;
+    filter: invert(87%) sepia(99%) saturate(2%) hue-rotate(184deg) brightness(109%) contrast(97%);
+}
+input[type="text"].form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.ico-num{
+    color: #054da1;
+    background: #fff;
+    border:5px solid #054da1;
+    font-weight: bold;
+    font-size: 2.3rem;
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+}
+.container.container-main{
+    max-width: 1000px;
+}
+.cardT{
+    box-shadow: 0 20px 20px rgba(0,0,0,.1)
+}
+.cardT .card-img-top{
+    height:300px;
+    object-fit: cover;
+    width:100%;
+}
+.cardT .card-title{
+    font-weight: 600;
+    height: 96px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.cardT p{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+#content{
+    position: relative;
+}
+#content:after{
+    background: url(../images/2369617.png);
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom:0;
+    left:0;
+    width:1080px;
+    height:1080px;
+}
+.boxThank{
+    background: rgba(255,255,255,.5);
+    border-radius: 20px;
+    padding:50px 30px;
+    text-align: center;
+}
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px){
+
+}
+@media screen and (min-width:375px) and (max-width:413px){
+
+}
+@media screen and (min-width:414px) and (max-width:424px){
+
+}
+@media screen and (min-width:425px) and (max-width:767px){
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+
+}
+@media screen and (min-width:1024px) and (max-width:1279px){
+
+}
+@media screen and (min-width:1280px) and (max-width:1359px){
+
+}
+@media screen and (min-width:1360px) and (max-width:1439px){
+
+}
+@media screen and (min-width:1440px) and (max-width:1599px){
+
+}
+@media screen and (min-width:1600px) and (max-width:1919px){
+
+}
+@media screen and (min-width:1920px) and (max-width:2559px){
+
+}
+@media screen and (min-width:2560px) {
+
+}
